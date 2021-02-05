@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace RRQMServiceTest
 {
-    public class RRQMTcpService : TcpService
+    public class RRQMTcpService : TcpService<RRQMTcpSocketClient>
     {
         #region Methods
 
@@ -17,7 +17,7 @@ namespace RRQMServiceTest
         ///该方法的主要作用是生成用于和客户端通信的辅助类
         /// </summary>
         /// <returns></returns>
-        protected override TcpSocketClient CreatSocketCliect()
+        protected override RRQMTcpSocketClient CreatSocketCliect()
         {
             RRQMTcpSocketClient socketClient = new RRQMTcpSocketClient();
             return socketClient;

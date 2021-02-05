@@ -1,4 +1,5 @@
-﻿using RRQMSocket;
+﻿using RRQMCore.ByteManager;
+using RRQMSocket;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,15 +15,14 @@ namespace RRQMClientTest
     public class RRQMTcpClient : RRQMClient
     {
         int a;
-        protected override void RRQMTcpHandleBuffer(byte[] buffer)
+        protected override void RRQMTcpHandleBuffer(ByteBlock byteBlock)
         {
-            string mes = Encoding.UTF8.GetString(buffer,0,buffer.Length);
+            string mes = Encoding.UTF8.GetString(byteBlock.Buffer,0,(int)byteBlock.Position);
 
             if (++a%10000==0)
             {
                 Console.WriteLine($"{a}已接收到信息：{mes}");
             }
-          
         }
     }
 }

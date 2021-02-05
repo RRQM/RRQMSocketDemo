@@ -35,7 +35,7 @@ namespace RRQMServiceTest
             RRQMTcpService service = new RRQMTcpService();
             BindSetting setting = new BindSetting();
             setting.IP = "127.0.0.1";
-            setting.Port = 7789;
+            setting.Port = 7790;
             setting.MultithreadThreadCount = 1;
             service.Bind(setting);
             Console.WriteLine("绑定成功");

@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace RRQMClientTest
@@ -13,12 +14,17 @@ namespace RRQMClientTest
         {
             Console.ReadKey();
 
-            // SimpleTcpClientTest();
-           RRQMTcpClientTest();
-
+            for (int i = 0; i < 10; i++)
+            {
+                ThreadPool.QueueUserWorkItem((object o) =>
+                {
+                    RRQMTcpClientTest();
+                });
+            }
             Console.ReadKey();
         }
-
+        static TimeSpan time;
+        static int count;
         static void SimpleTcpClientTest()
         {
             SimpleTcpClient client = new SimpleTcpClient();
@@ -30,11 +36,24 @@ namespace RRQMClientTest
             client.Connect(connectSetting);
             Console.WriteLine("连接成功");
 
-            for (int i = 0; i < 10000; i++)
+            TimeSpan timeSpan = RRQMCore.Diagnostics.TimeMeasurer.Run(() =>
+              {
+                  for (int i = 0; i < 1000000; i++)
+                  {
+                      if (i % 10000 == 0)
+                      {
+                          Console.WriteLine(i);
+                      }
+                      client.Send(Encoding.UTF8.GetBytes("若汝棋茗"));
+                  }
+              });
+            lock (typeof(Program))
             {
-                // Console.ReadKey();
-                client.Send(Encoding.UTF8.GetBytes("若汝棋茗"));
+                count++;
+                time += timeSpan;
+                Console.WriteLine(TimeSpan.FromTicks(time.Ticks / count));
             }
+
         }
 
         static void RRQMTcpClientTest()
@@ -43,20 +62,27 @@ namespace RRQMClientTest
 
             ConnectSetting connectSetting = new ConnectSetting();
             connectSetting.TargetIP = "127.0.0.1";
-            connectSetting.TargetPort = 7789;
-            connectSetting.MultithreadThreadCount = 1;
+            connectSetting.TargetPort = 7790;
             client.Connect(connectSetting);
             Console.WriteLine("连接成功");
 
-            for (int i = 0; i < 100000000; i++)
+            byte[] data = Encoding.UTF8.GetBytes("若汝棋茗");
+            TimeSpan timeSpan = RRQMCore.Diagnostics.TimeMeasurer.Run(() =>
             {
-                if (i%10000==0)
+                for (int i = 0; i < 1000000; i++)
                 {
-                    Console.WriteLine(i);
+                    if (i % 10000 == 0)
+                    {
+                        Console.WriteLine(i);
+                    }
+                    client.Send(data);
                 }
-                
-                byte[] vs = Encoding.UTF8.GetBytes("若汝棋茗");
-                client.Send(vs);
+            });
+            lock (typeof(Program))
+            {
+                count++;
+                time += timeSpan;
+                Console.WriteLine(TimeSpan.FromTicks(time.Ticks / count));
             }
         }
     }

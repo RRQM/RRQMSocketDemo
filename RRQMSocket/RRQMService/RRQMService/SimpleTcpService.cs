@@ -7,7 +7,7 @@ namespace RRQMServiceTest
     若汝棋茗
     */
 
-    public class SimpleTcpService : TcpService
+    public class SimpleTcpService : TcpService<SimpleTcpSocketClient>
     {
         #region Methods
 
@@ -16,7 +16,7 @@ namespace RRQMServiceTest
         ///该方法的主要作用是生成用于和客户端通信的辅助类
         /// </summary>
         /// <returns></returns>
-        protected override TcpSocketClient CreatSocketCliect()
+        protected override SimpleTcpSocketClient CreatSocketCliect()
         {
             SimpleTcpSocketClient socketClient = new SimpleTcpSocketClient();
             return socketClient;

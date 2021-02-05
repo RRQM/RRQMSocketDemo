@@ -1,4 +1,5 @@
-﻿using RRQMSocket;
+﻿using RRQMCore.ByteManager;
+using RRQMSocket;
 using System;
 using System.Text;
 
@@ -22,11 +23,10 @@ namespace RRQMClientTest
         /// 该数据与发送方不完全一致，可能会发生粘包，分包等情况。
         /// 当然也如果服务器没有返回数据的话，也不会调用该方法。
         /// </summary>
-        /// <param name="buffer"></param>
-        /// <param name="r">接收长度</param>
-        public override void HandleBuffer(byte[] buffer, int r)
+        /// <param name="byteBlock"></param>
+        public override void HandleBuffer(ByteBlock byteBlock)
         {
-            string mes = Encoding.UTF8.GetString(buffer,0,r);
+            string mes = Encoding.UTF8.GetString(byteBlock.Buffer, 0, (int)byteBlock.Position);
             Console.WriteLine($"已接收到信息：{mes}");
         }
 

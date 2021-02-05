@@ -1,4 +1,5 @@
-﻿using RRQMSocket;
+﻿using RRQMCore.ByteManager;
+using RRQMSocket;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,18 +20,22 @@ namespace SocketClientLiberal
         /// </summary>
         /// <param name="buffer"></param>
         /// <param name="r"></param>
-        public override void RRQMTcpHandleBuffer(byte[] buffer)
+        protected override void RRQMTcpHandleBuffer(ByteBlock byteBlock)
         {
-            lock (this)
-            {
-                if (++a % 10000 == 0)
-                {
-                    Console.WriteLine(a);
-                }
-            }
 
-            string mes = Encoding.UTF8.GetString(buffer, 0, buffer.Length);
-            // this.Send(Encoding.UTF8.GetBytes(mes));//通过默认Send方法，把收到的数据原数返回，该数据完全和Client收到的数据一致
+            //lock (this)
+            //{
+            //    if (++a % 10000 == 0)
+            //    {
+            //        Console.WriteLine(a);
+            //    }
+            //}
+
+            //string mes = Encoding.UTF8.GetString(byteBlock.Buffer, 0, (int)byteBlock.Position);
+
+            //this.Send(byteBlock.Buffer, 0, (int)byteBlock.Position);
+
+            //通过默认Send方法，把收到的数据原数返回，该数据完全和Client收到的数据一致
         }
     }
 }

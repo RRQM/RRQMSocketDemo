@@ -23,3 +23,5 @@ D:\OpenCode\RRQMSocketDemo\RRQMSocket\RRQMService\RRQMService\obj\Debug\RRQMServ
 D:\OpenCode\RRQMSocketDemo\RRQMSocket\RRQMService\RRQMService\obj\Debug\RRQMServiceTest.csproj.CopyComplete
 D:\OpenCode\RRQMSocketDemo\RRQMSocket\RRQMService\RRQMService\obj\Debug\RRQMServiceTest.exe
 D:\OpenCode\RRQMSocketDemo\RRQMSocket\RRQMService\RRQMService\obj\Debug\RRQMServiceTest.pdb
+D:\OpenCode\RRQMSocketDemo\RRQMSocket\RRQMService\RRQMService\bin\Debug\RRQMCore.dll
+D:\OpenCode\RRQMSocketDemo\RRQMSocket\RRQMService\RRQMService\bin\Debug\RRQMCore.xml

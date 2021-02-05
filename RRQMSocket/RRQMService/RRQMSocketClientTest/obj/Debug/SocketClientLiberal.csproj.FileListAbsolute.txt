@@ -15,3 +15,6 @@ D:\OpenCode\RRQMSocketDemo\RRQMSocket\RRQMService\RRQMSocketClientTest\obj\Debug
 D:\OpenCode\RRQMSocketDemo\RRQMSocket\RRQMService\RRQMSocketClientTest\obj\Debug\SocketClientLiberal.dll
 D:\OpenCode\RRQMSocketDemo\RRQMSocket\RRQMService\RRQMSocketClientTest\obj\Debug\SocketClientLiberal.pdb
 D:\OpenCode\RRQMSocketDemo\RRQMSocket\RRQMService\RRQMSocketClientTest\bin\Debug\RRQMSocket.dll
+D:\OpenCode\RRQMSocketDemo\RRQMSocket\RRQMService\RRQMSocketClientTest\bin\Debug\RRQMCore.dll
+D:\OpenCode\RRQMSocketDemo\RRQMSocket\RRQMService\RRQMSocketClientTest\bin\Debug\RRQMCore.xml
+D:\OpenCode\RRQMSocketDemo\RRQMSocket\RRQMService\RRQMSocketClientTest\obj\Debug\SocketClientLiberal.csprojAssemblyReference.cache
