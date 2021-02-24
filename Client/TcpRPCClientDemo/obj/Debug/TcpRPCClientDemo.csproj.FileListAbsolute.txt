@@ -1,0 +1,15 @@
+D:\OpenCode\RRQMSocketDemo\Client\TcpRPCClientDemo\bin\Debug\TcpRPCClientDemo.exe.config
+D:\OpenCode\RRQMSocketDemo\Client\TcpRPCClientDemo\bin\Debug\TcpRPCClientDemo.exe
+D:\OpenCode\RRQMSocketDemo\Client\TcpRPCClientDemo\bin\Debug\TcpRPCClientDemo.pdb
+D:\OpenCode\RRQMSocketDemo\Client\TcpRPCClientDemo\bin\Debug\RRQMCore.dll
+D:\OpenCode\RRQMSocketDemo\Client\TcpRPCClientDemo\bin\Debug\RRQMSocket_SerializeConverter.dll
+D:\OpenCode\RRQMSocketDemo\Client\TcpRPCClientDemo\bin\Debug\Newtonsoft.Json.dll
+D:\OpenCode\RRQMSocketDemo\Client\TcpRPCClientDemo\bin\Debug\RRQMCore.pdb
+D:\OpenCode\RRQMSocketDemo\Client\TcpRPCClientDemo\bin\Debug\RRQMCore.xml
+D:\OpenCode\RRQMSocketDemo\Client\TcpRPCClientDemo\bin\Debug\RRQMSocket_SerializeConverter.pdb
+D:\OpenCode\RRQMSocketDemo\Client\TcpRPCClientDemo\bin\Debug\RRQMSocket_SerializeConverter.xml
+D:\OpenCode\RRQMSocketDemo\Client\TcpRPCClientDemo\obj\Debug\TcpRPCClientDemo.csproj.CoreCompileInputs.cache
+D:\OpenCode\RRQMSocketDemo\Client\TcpRPCClientDemo\obj\Debug\TcpRPCClientDemo.csproj.CopyComplete
+D:\OpenCode\RRQMSocketDemo\Client\TcpRPCClientDemo\obj\Debug\TcpRPCClientDemo.exe
+D:\OpenCode\RRQMSocketDemo\Client\TcpRPCClientDemo\obj\Debug\TcpRPCClientDemo.pdb
+D:\OpenCode\RRQMSocketDemo\Client\TcpRPCClientDemo\obj\Debug\TcpRPCClientDemo.csprojAssemblyReference.cache

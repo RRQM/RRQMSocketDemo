@@ -1,0 +1,14 @@
+D:\OpenCode\RRQMSocketDemo\Server\RPCService\bin\Debug\RPCServiceDemo.exe.config
+D:\OpenCode\RRQMSocketDemo\Server\RPCService\bin\Debug\RPCServiceDemo.exe
+D:\OpenCode\RRQMSocketDemo\Server\RPCService\bin\Debug\RPCServiceDemo.pdb
+D:\OpenCode\RRQMSocketDemo\Server\RPCService\bin\Debug\RRQMCore.dll
+D:\OpenCode\RRQMSocketDemo\Server\RPCService\bin\Debug\RRQMSocket_SerializeConverter.dll
+D:\OpenCode\RRQMSocketDemo\Server\RPCService\bin\Debug\Newtonsoft.Json.dll
+D:\OpenCode\RRQMSocketDemo\Server\RPCService\bin\Debug\RRQMCore.pdb
+D:\OpenCode\RRQMSocketDemo\Server\RPCService\bin\Debug\RRQMCore.xml
+D:\OpenCode\RRQMSocketDemo\Server\RPCService\bin\Debug\RRQMSocket_SerializeConverter.pdb
+D:\OpenCode\RRQMSocketDemo\Server\RPCService\bin\Debug\RRQMSocket_SerializeConverter.xml
+D:\OpenCode\RRQMSocketDemo\Server\RPCService\obj\Debug\RPCServiceDemo.csproj.CoreCompileInputs.cache
+D:\OpenCode\RRQMSocketDemo\Server\RPCService\obj\Debug\RPCServiceDemo.csproj.CopyComplete
+D:\OpenCode\RRQMSocketDemo\Server\RPCService\obj\Debug\RPCServiceDemo.exe
+D:\OpenCode\RRQMSocketDemo\Server\RPCService\obj\Debug\RPCServiceDemo.pdb

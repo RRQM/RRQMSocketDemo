@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RRQMSocket_SerializeConverter</name>
+    </assembly>
+    <members>
+        <member name="T:RRQMSocket_SerializeConverter.JsonSerializeConverter">
+            <summary>
+            应用于RRQMSocket的Json序列化类(该类支持泛型)
+            </summary>
+        </member>
+    </members>
+</doc>

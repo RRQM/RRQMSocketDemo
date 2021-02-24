@@ -1,0 +1,11 @@
+D:\OpenCode\RRQMSocketDemo\Server\TcpService\obj\Debug\TcpService.csproj.CoreCompileInputs.cache
+D:\OpenCode\RRQMSocketDemo\Server\TcpService\bin\Debug\TcpServiceDemo.exe.config
+D:\OpenCode\RRQMSocketDemo\Server\TcpService\bin\Debug\TcpServiceDemo.exe
+D:\OpenCode\RRQMSocketDemo\Server\TcpService\bin\Debug\TcpServiceDemo.pdb
+D:\OpenCode\RRQMSocketDemo\Server\TcpService\bin\Debug\RRQMCore.dll
+D:\OpenCode\RRQMSocketDemo\Server\TcpService\bin\Debug\RRQMSocket.dll
+D:\OpenCode\RRQMSocketDemo\Server\TcpService\bin\Debug\RRQMCore.xml
+D:\OpenCode\RRQMSocketDemo\Server\TcpService\bin\Debug\RRQMSocket.xml
+D:\OpenCode\RRQMSocketDemo\Server\TcpService\obj\Debug\TcpService.csproj.CopyComplete
+D:\OpenCode\RRQMSocketDemo\Server\TcpService\obj\Debug\TcpServiceDemo.exe
+D:\OpenCode\RRQMSocketDemo\Server\TcpService\obj\Debug\TcpServiceDemo.pdb

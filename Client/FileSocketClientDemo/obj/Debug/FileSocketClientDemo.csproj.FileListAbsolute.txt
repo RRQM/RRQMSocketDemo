@@ -1,0 +1,9 @@
+D:\OpenCode\RRQMSocketDemo\Client\FileSocketClientDemo\obj\Debug\FileSocketClientDemo.csprojAssemblyReference.cache
+D:\OpenCode\RRQMSocketDemo\Client\FileSocketClientDemo\obj\Debug\Dictionary.baml
+D:\OpenCode\RRQMSocketDemo\Client\FileSocketClientDemo\obj\Debug\MainWindow.baml
+D:\OpenCode\RRQMSocketDemo\Client\FileSocketClientDemo\obj\Debug\MainWindow.g.cs
+D:\OpenCode\RRQMSocketDemo\Client\FileSocketClientDemo\obj\Debug\Views\MessageWindow.g.cs
+D:\OpenCode\RRQMSocketDemo\Client\FileSocketClientDemo\obj\Debug\App.g.cs
+D:\OpenCode\RRQMSocketDemo\Client\FileSocketClientDemo\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\OpenCode\RRQMSocketDemo\Client\FileSocketClientDemo\obj\Debug\FileSocketClientDemo_MarkupCompile.cache
+D:\OpenCode\RRQMSocketDemo\Client\FileSocketClientDemo\obj\Debug\FileSocketClientDemo_MarkupCompile.lref

@@ -1,0 +1,12 @@
+D:\OpenCode\RRQMSocketDemo\Client\TcpClientDemo\bin\Debug\TcpClientDemo.exe.config
+D:\OpenCode\RRQMSocketDemo\Client\TcpClientDemo\bin\Debug\TcpClientDemo.exe
+D:\OpenCode\RRQMSocketDemo\Client\TcpClientDemo\bin\Debug\TcpClientDemo.pdb
+D:\OpenCode\RRQMSocketDemo\Client\TcpClientDemo\bin\Debug\RRQMCore.dll
+D:\OpenCode\RRQMSocketDemo\Client\TcpClientDemo\bin\Debug\RRQMSocket.dll
+D:\OpenCode\RRQMSocketDemo\Client\TcpClientDemo\bin\Debug\RRQMCore.xml
+D:\OpenCode\RRQMSocketDemo\Client\TcpClientDemo\bin\Debug\RRQMSocket.xml
+D:\OpenCode\RRQMSocketDemo\Client\TcpClientDemo\obj\Debug\TcpClientDemo.csproj.CoreCompileInputs.cache
+D:\OpenCode\RRQMSocketDemo\Client\TcpClientDemo\obj\Debug\TcpClientDemo.csproj.CopyComplete
+D:\OpenCode\RRQMSocketDemo\Client\TcpClientDemo\obj\Debug\TcpClientDemo.exe
+D:\OpenCode\RRQMSocketDemo\Client\TcpClientDemo\obj\Debug\TcpClientDemo.pdb
+D:\OpenCode\RRQMSocketDemo\Client\TcpClientDemo\obj\Debug\TcpClientDemo.csprojAssemblyReference.cache
